@@ -3,18 +3,18 @@ const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 const apiKeyInput = document.getElementById('api-key');
 const submitApiKeyButton = document.getElementById('submit-api-key');
-const apiKeyMessage = document.getElementById('api-key-message'); // Get the message paragraph
+const apiKeyMessage = document.getElementById('api-key-message');
+const contextLoadingBar = document.getElementById('context-loading-bar');
 
-let context = ""; // Initialize an empty context
-let apiKey = null; // Store API key internally after submission
-let contextLoading = false;  // Flag to track if context is loading
+let context = "";
+let apiKey = null;
+let contextLoading = false;
+let conversationHistory = [];
 
-// Function to load context from a text file
 async function loadContext() {
-    if (contextLoading) return; // Prevent multiple calls
+    if (contextLoading) return;
 
     contextLoading = true;
-    appendMessage('bot', 'Loading context... Please wait.'); // User feedback
 
     try {
         const response = await fetch('context.txt');
@@ -23,36 +23,28 @@ async function loadContext() {
         }
         context = await response.text();
         console.log("Context loaded successfully.");
-        appendMessage('bot', 'Context loaded.');  // Update user
-
-        //Optionally limit context size here before sending, if you want
-        //context = context.substring(0, MAX_CONTEXT_SIZE); //Replace MAX_CONTEXT_SIZE
-
+        contextLoadingBar.classList.add('loaded');
     } catch (error) {
         console.error("Error loading context:", error);
-        appendMessage('bot', 'Error: Could not load context file.');
-        context = "Unable to load context."; //Fallback
+        context = "Unable to load context.";
+        appendMessage('bot', 'Context failed to load.');
     } finally {
         contextLoading = false;
     }
 }
 
-loadContext(); // Load context on page load
-
-// API Key Submission
 submitApiKeyButton.addEventListener('click', () => {
-    apiKey = apiKeyInput.value.trim();  // Store API key in variable
+    apiKey = apiKeyInput.value.trim();
     if (apiKey) {
-        apiKeyInput.disabled = true; //Disable input
-        submitApiKeyButton.disabled = true;  // Disable button
-        apiKeyMessage.textContent = "API Key submitted.  Ready to chat!";  // Display success
-        apiKeyMessage.classList.remove('error'); // Remove error class, if present
-        apiKeyMessage.classList.add('success');  // Add a success class (optional, for styling)
-
+        apiKeyInput.disabled = true;
+        submitApiKeyButton.disabled = true;
+        apiKeyMessage.textContent = "API Key submitted. Ready to chat!";
+        apiKeyMessage.classList.remove('error');
+        apiKeyMessage.classList.add('success');
     } else {
         apiKeyMessage.textContent = "Please enter an API Key.";
-        apiKeyMessage.classList.add('error'); // Add error class
-        apiKey = null; // Clear any previous invalid key
+        apiKeyMessage.classList.add('error');
+        apiKey = null;
     }
 });
 
@@ -60,10 +52,12 @@ sendButton.addEventListener('click', sendMessage);
 
 userInput.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        event.preventDefault(); // Prevent form submission (if inside a form)
+        event.preventDefault();
         sendMessage();
     }
 });
+
+loadContext();
 
 function sendMessage() {
     const message = userInput.value.trim();
@@ -74,28 +68,58 @@ function sendMessage() {
         return;
     }
 
-    if (contextLoading) {  //Check before sending
-      appendMessage('bot', 'Please wait for the context to load before sending messages.');
-      return;
+    if (contextLoading) {
+        appendMessage('bot', 'Please wait for the context to load before sending messages.');
+        return;
     }
 
     appendMessage('user', message);
+    conversationHistory.push({ role: 'user', content: message });
     userInput.value = '';
 
-    getBotResponse(message, apiKey); // Use stored API key
+    getBotResponse(message, apiKey);
 }
 
-function appendMessage(sender, message) {
+function appendMessage(sender, message, isHtml = false) {
     const div = document.createElement('div');
     div.classList.add('message', sender);
-    div.textContent = message;
+    if (isHtml) {
+        div.innerHTML = message;
+    } else {
+        div.textContent = message;
+    }
     chatWindow.appendChild(div);
     chatWindow.scrollTop = chatWindow.scrollHeight;
+    return div; // Return the div for typing animation
 }
 
-function getBotResponse(message, apiKey) { // apiKey is now an argument
-    const prompt = `Context: ${context}\nQuestion: ${message}`;
+async function typeMessage(element, text) {
+    element.classList.add('typing');
+    element.innerHTML = ''; // Clear content initially
+    await new Promise(resolve => setTimeout(resolve, 500)); // Brief delay before typing starts
+    for (let i = 0; i < text.length; i++) {
+        element.innerHTML = text.substring(0, i + 1);
+        await new Promise(resolve => setTimeout(resolve, 10)); // Typing speed (5ms per character)
+    }
+    element.classList.remove('typing');
+}
+
+function getBotResponse(message, apiKey) {
+    let prompt = `Context: ${context}\n\n` +
+                 `Conversation History:\n`;
+    
+    conversationHistory.forEach(entry => {
+        prompt += `${entry.role === 'user' ? 'User' : 'Assistant'}: ${entry.content}\n`;
+    });
+
+    prompt += `\nCurrent Question: ${message}\n\n` +
+              `Please provide a well-formatted answer using Markdown syntax. Use headings, bullet points, numbered lists, and other appropriate formatting to make the response clear and easy to read.`;
+
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+
+    // Create a placeholder message element with typing indicator
+    const messageElement = appendMessage('bot', '', true);
+    messageElement.classList.add('typing');
 
     fetch(url, {
         method: 'POST',
@@ -109,11 +133,21 @@ function getBotResponse(message, apiKey) { // apiKey is now an argument
         return response.json();
     })
     .then(data => {
-        const reply = data.candidates[0].content.parts[0].text || 'No reply';
-        appendMessage('bot', reply);
+        let reply = data.candidates[0].content.parts[0].text || 'No reply';
+        reply = markdownToHtml(reply);
+        // Remove typing class and start animation
+        messageElement.classList.remove('typing');
+        typeMessage(messageElement, reply).then(() => {
+            conversationHistory.push({ role: 'assistant', content: reply });
+        });
     })
     .catch((error) => {
         console.error("Gemini API error:", error);
-        appendMessage('bot', 'Error: Check your API key or connection. See console for details.');
+        messageElement.classList.remove('typing');
+        typeMessage(messageElement, 'Error: Check your API key or connection. See console for details.');
     });
+}
+
+function markdownToHtml(markdownText) {
+    return marked.parse(markdownText);
 }
