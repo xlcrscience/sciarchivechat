@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XLCRSCI-ARCHGPT</title>
-    <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>XLCRSCI-ArchGPT 1.0</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>XLCRSCI-ARCHGPT</h1>
-        </header>
-        <main>
-            <div class="api-key-input">
-                <label for="api-key">Gemini API Key:</label>
-                <div class="api-key-wrapper">
-                    <input type="password" id="api-key" placeholder="Enter your API key" aria-label="Gemini API Key">
-                    <button id="submit-api-key">Submit</button>
-                </div>
-                <p id="api-key-message" class="message"></p>  <!-- Display API key status messages here -->
-            </div>
-
-            <div id="chat-window" class="chat-window"></div>
-
-            <form class="input-area">  <!-- Wrap the input and button in a form -->
-                <input type="text" id="user-input" placeholder="Type your message..." aria-label="Your message">
-                <button type="button" id="send-button">Send</button>  <!-- type="button" -->
-            </form>
-        </main>
-    </div>
-    <script src="script.js"></script>
+ <div class="app-container">
+ <header class="sidebar">
+ <div class="sidebar-content">
+ <img src="logo.png" alt="Logo" id="logo" class="logo" height="200" width="200">
+ </div>
+ <div class="context-status">
+ <div id="context-loading-bar" class="loading-bar"></div>
+ </div>
+ </header>
+ <main class="chat-main">
+ <div class="chat-header">
+ <h1>XLCRSCI-ArchGPT 1.0</h1>
+ </div>
+ <div class="api-key-section">
+ <input type="password" id="api-key" placeholder="Enter your API Key">
+ <button id="submit-api-key">Submit</button>
+ <span id="api-key-message"></span>
+ <a href="https://console.cloud.google.com/" target="_blank" class="api-link">Click here to get your API key</a>
+ </div>
+ <div class="chat-window" id="chat-window"></div>
+ <div class="input-section">
+ <input type="text" id="user-input" placeholder="Type your message...">
+ <button id="send-button">Send</button>
+ </div>
+ </main>
+ </div>
+ <footer class="footer">Created by Rajat © 2025</footer>
+ <script src="script.js"></script>
 </body>
 </html>
