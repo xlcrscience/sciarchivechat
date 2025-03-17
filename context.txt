@@ -1,250 +1,204 @@
-Dear Science Educators,
-Welcome to The Excelsior School Science Department! Whether you are joining us for the first time or have been a part of this journey for years, we are thrilled to have you as a vital member of our team. As educators, we are entrusted with the responsibility of inspiring curiosity, fostering a love for discovery, and guiding our students in their exploration of the world through the lens of science.
-Science is not just a subject; it’s a way of thinking—a pursuit of truth, understanding, and innovation. Our role as teachers is to nurture these skills in our students, empowering them to ask questions, challenge assumptions, and solve real-world problems. This handbook is designed to support you in this mission, offering guidance on our shared goals, responsibilities, and the values we hold dear.
-At Excelsior, we believe that education is a collaborative effort, and your expertise and passion are at the heart of what we do. By working together—sharing ideas, supporting one another, and staying committed to our vision—we can ensure that every student is not only prepared for academic success but also inspired to be a lifelong learner.
-We value the unique strengths each of you brings to our department, and we are here to support you in every way possible. Let’s make this year one of growth, discovery, and meaningful impact, both for ourselves and for our students.
-Thank you for your dedication and commitment to making science come alive in our classrooms.
-
-Warm regards,
-Department of Science
-The Excelsior School
-Department of Science – Core Principles
+### BELT Lesson Plan Quick Check 
 
-“The solutions to political and ethical dilemmas involving science and technology cannot be the subject of informed debate unless young people possess certain scientific awareness. While this does not mean turning everyone into a scientific expert, it does mean providing them with a science education that would enable them to fulfill an enlightened role in making choices which affect their environment and to understand in broad terms the social implications of debates between experts.”
-    — European Commission, 1995
+The **BELT framework** is a quick tool designed for teachers at **The Excelsior School** to assess the effectiveness of their lesson plans and delivery in real-time. It is based on four key questions represented by the acronym **BELT**: **Boredom**, **Engagement**, **Learning**, and **Time**. Teachers are encouraged to periodically pause during planning and lesson delivery to ask themselves these questions.
 
-    “A science education should be both broad and applied. Thus, the framework refers to a knowledge of science, science-based technology, and scientific and engineering practices. It should be noted, however, that science and technology do differ in their purposes, processes, and products. Technology asks: ‘What can we do with this knowledge?’ seeking the optimal solution to a human problem where there may be more than one optimal solution. In contrast, science seeks to answer three questions about the natural material world:
-    (1) What exists?
-    (2) Why does any given phenomenon happen?
-    (3) How do we know?”
-    — PISA 2025 Science Framework
+*   **B - Boredom**: This aspect focuses on identifying if the classroom environment is becoming monotonous for students.
+    *   Teachers should look for **signs of disengagement** such as **fidgeting**, **whispering**, or **off-task behavior**.
+    *   It's important to consider if the **pace of the lesson is appropriate** and if the **activities are varied**.
+    *   If the answer to whether the classroom is getting boring is "yes", teachers should consider **adjusting the lesson pace**, **introducing a new activity**, or using a **short energizer to refocus students**.
 
-Science fuels our understanding of the world and holds the key to solving tomorrow's challenges. In the Department of Science at The Excelsior School, we are committed to fostering a love of science and nurturing the next generation of scientific thinkers.
+*   **E - Engagement**: This element assesses whether students are actively involved in the lesson.
+    *   Teachers should observe if students are **actively participating in discussions, activities, or tasks**.
+    *   Another indicator of engagement is whether students are **asking questions or offering explanations**.
+    *   If **engagement is low**, teachers should think about **incorporating more interactive elements**, **clarifying instructions**, or **checking for understanding**.
 
-Based on the comprehensive notes drafted by teachers across various grades, the Department of Science can encapsulate its ethos and approach through the following mission and vision statements, along with a set of guiding principles uniquely titled with the acronym S.C.I.E.N.C.E.
-Vision
+*   **L - Learning**: This component evaluates whether students are acquiring knowledge and skills as intended by the lesson.
+    *   Teachers need to consider if students are **meeting the learning outcomes of the lesson**.
+    *   Evidence of learning can be seen if students are **able to demonstrate their understanding through activities or assessments**.
+    *   If **learning is a concern**, teachers might need to consider **revisiting key points**, **providing additional practice**, or **adjusting the difficulty level**.
 
-A learning environment where science is not only learned but also lived—sparking students' curiosity about its marvels, practical applications, and its harmonious integration into everyday existence to gain lived experiences.
-Mission
+*   **T - Time**: This aspect focuses on the efficient use of instructional time.
+    *   Teachers should be mindful of whether **activities are taking longer than expected**.
+    *   They should also consider if **adjustments can be made to ensure efficient use of time**.
+    *   If the answer to whether time is being wasted is "yes", teachers should consider **adjusting the lesson pace**, **introducing a new activity**, or using a **short energizer to refocus students**.
 
-To equip students with dynamic and innovative teaching approaches, nurturing their independence, fostering personal growth, and igniting a deep-seated enthusiasm for science.
-Guiding Principles
+The BELT quick check offers several **benefits**:
 
-    Student-Centered Learning
-        Embrace a holistic approach that prioritizes hands-on learning, curiosity, and student-led inquiry.
-        Ensure that teaching methods are adapted to cater to the diverse needs and interests of all students.
-        Design engaging, hands-on, and minds-on activities that are both practical and fun.
+*   It allows teachers to **adapt their lesson on the fly** to improve **student engagement and learning**.
+*   It promotes a more **responsive teaching style**.
 
-    Curiosity and Critical Thinking
-        Encourage a culture where questions are valued as much as answers.
-        Develop students' abilities to think critically and creatively.
-        Equip students with the skills to pursue inquiry-based learning.
+Important reminders regarding the use of BELT:
 
-    Integrity and Inclusivity
-        Maintain a high standard of integrity within the science community.
-        Promote honesty, respect, and responsibility among students and teachers.
-        Ensure that science education is inclusive, providing equal opportunities for all students.
+*   There is **no set frequency** for checking BELT; teachers should do it **intuitively as they see fit**.
+*   BELT is a **tool**, not a **rigid script**, and teachers should use their **professional judgment** to adjust and personalize it for their specific teaching style and students.
 
-    Engagement through Diverse Methods
-        Employ a diverse toolbox of teaching strategies to ignite a passion for science.
-        Use interactive lectures, group discussions, digital technology, and field trips.
-        Cater to a variety of learning styles by incorporating methodologies like problem-based learning.
+### Competencies of Teachers
 
-    Nurturing through Collaboration
-        Foster a supportive environment where collaboration among students is encouraged.
-        Promote peer learning, teamwork, and communication.
-        Encourage group projects and cooperative learning experiences.
+The **Teacher Competency Framework 2072** outlines essential competencies expected of teachers, encompassing various aspects of their professional practice. These competencies are described with specific indicators.
 
-    Connections beyond the Classroom
-        Extend learning beyond the confines of the classroom.
-        Connect scientific concepts to the real world, other subjects, and current global issues.
-        Encourage students to apply their knowledge in practical, real-life contexts.
+*   **Content Knowledge**: This competency involves having **in-depth knowledge of the subject** a teacher teaches to address students' learning needs.
+    *   Indicators include **in-depth and up-to-date knowledge in related subjects**, information about **concepts, principles, and interrelationships of related subjects**, information on the **overall aspect, including the structure of the curriculum** of the subject to be taught, and knowledge about its **interrelationship with other subjects**.
+    *   It also includes knowledge about the **relevance of the subject matter to the local environment**.
 
-    Evolution and Reflection
-        Commit to continuous improvement and lifelong learning, both for students and educators.
-        Through ongoing assessment, reflective practices, and openness to new ideas and technologies, the Department of Science will remain adaptable and forward-thinking.
+*   **Pedagogical Knowledge**: This refers to having **in-depth knowledge about the teaching and learning process** and being able to use that knowledge suitably in teaching and learning.
+    *   Indicators include **up-to-date knowledge on different teaching methods and latest teaching technology**, the ability **to determine the educational plan and strategy** to achieve course objectives and competencies, and the ability **to choose the appropriate teaching method** considering the subject matter, students' level, and individual differences.
+    *   It also involves the ability **to facilitate learning by using appropriate teaching methods and materials for active learning**, **to evaluate various aspects of learning using appropriate tools**, analyze the results, and use them, and **to ensure learning and conduct remedial teaching as needed** through continuous evaluation.
 
-Teacher Standards and Performance Expectations
-Knowledge
+*   **Knowledge about children/learners**: This competency focuses on the ability to **identify the diverse learning needs of children and teach accordingly**.
+    *   Indicators include the ability **to use knowledge about the physical, mental, social, and emotional development of children and its relationship with education**, **to establish a relationship with new learning by properly assessing prior knowledge**, and **to recognize and respect the linguistic and social, cultural values and diversity of learners**.
+    *   It also involves recognizing that **every child has the right to learn and can learn**, expecting higher learning, and the ability **to address the special learning needs and special abilities of children appropriately**.
 
-    Subject Mastery
-        Teachers must have deep content knowledge in the areas they teach.
-        Stay updated on the latest developments in science and education.
-        Use examples and analogies that connect scientific concepts to everyday experiences.
+*   **Learning environment and classroom management**: This competency involves being **able to manage classrooms for effective teaching and learning** while creating a **child-friendly, supportive, and challenging learning environment**.
+    *   Indicators include the ability **to create a child-friendly learning environment** by appropriately managing resources and facilities while considering the overall development of the school, **to organize groups as needed** for creative learning opportunities, and **to encourage exemplary behavior** by maintaining cooperation and mutual understanding through positive discipline.
+    *   It also includes the ability **to provide other appropriate means and opportunities**, including the use of the library and information technology, **to guide students towards discovery and creation**, and **to continue learning** by efficiently creating a suitable environment even in adverse situations.
 
-    Curriculum Understanding
-        Familiarize yourself with curriculum requirements and learning outcomes.
-        Ensure lessons and assessments align with departmental goals and national curriculum.
-        Provide appropriate pacing, ensuring key concepts are covered thoroughly.
+*   **Communication and collaboration**: This competency involves being **able to communicate and collaborate effectively between students, parents, and teachers**.
+    *   Indicators include the ability **to communicate effectively for inquiry, collaboration, and engagement**, **to motivate students to learn, clarify subject matter, engage in guided activities, and provide academic advice**, and **to share experience, expertise, mutual support, and collaboration among colleagues** to promote professional development and student participation.
+    *   It also includes the ability **to discuss and consult with parents for support and recording of achievements and other subjects**.
 
-Skills
+*   **Continuous learning and professional development**: This competency reflects a **commitment to continuous learning and professional development** by analyzing existing knowledge, skills, and experience.
+    *   Indicators include the desire **to seek professional development opportunities and engage in continuous learning**, **to be involved in continuous improvement through self-reflection**, and **to keep informed about studies and research** in their subject area and carry out practical research to improve teaching and learning.
+    *   It also includes **developing innovation and creativity** through mutual support and collaboration.
 
-    Lesson Planning and Instructional Design
-        Plan lessons that are clear, engaging, and aligned with learning objectives.
-        Use various instructional strategies (lectures, group work, multimedia, hands-on activities).
+*   **Legal Bases and Professional Conduct**: This competency involves being **capable of carrying out responsibilities by demonstrating ideal professional conduct** in accordance with prevailing laws, regulations, and social values.
+    *   Indicators include the ability **to earn public trust by exhibiting respect and loyalty to the profession** and demonstrating the highest ethical behavior, **to take responsibility for actions and behavior** by demonstrating ideal behavior according to laws and guidelines, and **to demonstrate neutral and respectful behavior towards all children** in line with professional codes and official dignity, committed to their best interests.
+    *   It also includes the ability **to demonstrate respect for social values and local culture** and tolerant behavior towards different opinions and beliefs, and **to demonstrate appropriate behavior** while being aware of global norms related to education (human rights, child rights, education as a fundamental right, education for all, etc.).
 
-    Classroom Management
-        Create a respectful and structured learning environment.
-        Set clear expectations for behavior and enforce them consistently.
+*   **Information and communication technology**: This competency involves being **able to use information and communication technology for effective teaching and learning**.
+    *   Indicators include the ability **to select and use integrated learning strategies of information and communication technology to facilitate learning**, **to develop digital content suited to learners' needs** and use available content adaptively, **to make effective mutual communication and collaboration** to promote self-learning through IT tools, and **to use IT for assessment and enrichment of learning**.
+    *   It also includes being **familiar with the policy related to IT in education** and developments in digital culture to display appropriate professional behavior.
 
-    Communication
-        Use clear, age-appropriate language to explain scientific concepts.
-        Encourage open dialogue in the classroom.
+### Examination and Result Analysis 
 
-    IT Skills
-        Utilize Google Classroom, Drive, and the school app for lesson organization and communication.
+This document outlines the standards for teachers at **The Excelsior School** to evaluate their performance during **terminal examinations**, which are conducted on a **quadrimester basis**. The evaluation is based on the concept of the **3 A's**: **Afore**, **Amid**, and **After** the examination process.
 
-Values and Attitudes
+*   **Stages**: The examination process is divided into three stages: **Afore (before)**, **Amid (during)**, and **After (after)** the examination.
 
-    Professionalism
-        Stay organized, prepared, and punctual.
-        Model honesty, respect, and fairness in all interactions.
+*   **Parameters** at each stage include:
+    *   **Afore**: **Syllabus**, **Specification grid**, **Question paper and its answer key**.
+    *   **Amid**: **Invigilation duty**.
+    *   **After**: **Answer sheet correction**, **Report Card (Data entry and verification)**, **Result analysis**.
 
-    Collaboration
-        Work effectively with other teachers and parents.
+*   **Standards for teachers at each stage**:
 
-    Commitment to Growth
-        Seek professional development opportunities.
-        Reflect on teaching practices and incorporate new ideas.
+    *   **Afore**:
+        *   **Syllabus**: Teachers must have an **understanding of the syllabus** and its usefulness to both teachers and students. They should be able to **create a comprehensible syllabus specific to a terminal exam** and mention details like the **marking scheme (theory/practical), study topics, and textbooks/reference books with page numbers**. They are also expected to **teach the syllabus completely**.
+        *   **Specification grid**: Teachers need to **understand the specification grid** and be able to **create a comprehensible one** with details such as **full marks, time, question type, question quantity, and marking scheme**, typically **a month prior to the examination**.
+        *   **Question Paper and its key**: Teachers must be able to **prepare a question paper and its key while maintaining integrity**. They should **create an original question paper** that includes **all learning levels (Bloom’s taxonomy)** based on the syllabus and specification grid created beforehand, with references to pre-existing questions but without plagiarism. The question paper is to be created **a month prior to the examination**. Teachers must **recheck and verify the question paper** before submitting it for verification and create an **answer key** that facilitates understanding the closeness of an answer to full marks. They are also prohibited from **providing probable questions in any form to students**.
 
+    *   **Amid**:
+        *   **Invigilation Duty**: Teachers should understand the **importance of invigilation duty** and perform it efficiently. This includes **reaching the exam hall on time**, maintaining **strict invigilation**, reminding students about remaining time, helping them understand questions, distributing question papers, and checking and signing answer scripts and supplementary papers. Teachers should **not engage in activities** such as reading, conversations, leaving without a substitute, correcting answer scripts, or helping students with answers. They are also responsible for the **answer sheets before handing them over** to the Examination department.
 
-THE EXCELSIOR SCHOOL Examination and Result Analysis Guide
+    *   **After**:
+        *   **Answer sheet correction**: Teachers must be able to **correct answer sheets and tabulate marks appropriately** using a **red pen** and without any **bias**. They need to **submit the marks** to the Examination department within **3 to 4 days** (duration may vary) and **not disclose the marks to students before result distribution**. They are also responsible for generating data such as **average marks, range of marks, and the number of students below the passing mark** from the corrections.
+        *   **Report card**: Teachers should **know about report card preparation** and be **extremely careful and precise while tabulating the marks**, **rechecking the marks grid** and tallying it with the answer sheet before submission.
+        *   **Result analysis**: Teachers are expected to **analyze the results** based on **answer sheet sampling, data generation, compare and contrast, and reflections**. They should **discuss the results with the Instructional Supervisor** for useful takeaways and strategy design for the next term and **devise plans** to prevent the recurrence of pitfalls from one terminal exam to the next.
 
-Introduction
-
-This guide outlines the standards for teachers at The Excelsior School in executing their duties during terminal examinations. Terminal examinations are conducted on a quadrimester basis. The evaluation process is structured around three key stages, known as the 3 A’s: Afore, Amid, and After the examination.
-
-Stages and Parameters
-
-Stages:
-
-Afore (Before the examination)
-
-Amid (During the examination)
-
-After (Post-examination)
-
-Parameters:
-
-Syllabus
-
-Invigilation duty
-
-Answer sheet correction
-
-Specification grid
-
-Report Card
-
-Question paper and its key
-
-Result analysis
-
-Standards for Teachers
-
-1. Afore (Before the Examination)
-
-Domain: Syllabus
-
-Standard 1: The teacher is well-versed in the syllabus and its significance to both teachers and students.Indicators:
-
-Can create a clear and structured syllabus specific to the terminal exam.
-
-Includes details such as marking schemes (theory/practical), study topics, and reference books (with page numbers).
-
-Ensures that the syllabus is thoroughly covered before the examination.
-
-Domain: Specification Grid
-
-Standard 2: The teacher understands the importance of the specification grid.Indicators:
-
-Can create a detailed specification grid with the following elements (at least a month before the exam):
-
-Full marks
-
-Time allocation
-
-Question types
-
-Question quantity
-
-Marking scheme
-
-Domain: Question Paper and Its Key
-
-Standard 3: The teacher is proficient in preparing the question paper and its key while maintaining confidentiality.Indicators:
-
-Creates a question paper based on the syllabus and the specification grid.
-
-Ensures originality by referencing pre-existing questions without direct plagiarism.
-
-Rechecks and verifies the question paper before submission to the subject IS/In-charge for verification.
-
-Develops an answer key that clearly defines the grading criteria.
-
-Does not provide probable questions to students in any form.
-
-2. Amid (During the Examination)
-
-Domain: Invigilation Duty
-
-Standard 1: The teacher understands the importance of invigilation and executes it effectively.Indicators:
-
-Arrives at the assigned exam hall on time.
-
-Maintains strict supervision while allowing students to understand the questions.
-
-Checks and signs all answer scripts and supplementary sheets.
-
-Avoids prohibited activities such as:
-
-Reading books, novels, or periodicals
-
-Engaging in conversations
-
-Leaving the exam room without a substitute
-
-Correcting answer scripts during invigilation
-
-Assisting students with answers
-
-Takes responsibility for answer sheets before handing them to the Examination Department.
-
-3. After (Post-Examination)
-
-Domain: Answer Sheet Correction
-
-Standard 1: The teacher ensures fair and unbiased correction of answer sheets.Indicators:
-
-Uses a red pen for correction.
-
-Assesses answer sheets without bias.
-
-Submits marks to the Examination Department within 3 to 4 days (depending on the number of answer sheets).
-
-Does not disclose marks to students before official result distribution.
-
-Generates statistical data such as average marks, range of marks, and identification of struggling students.
-
-Domain: Report Card
-
-Standard 2: The teacher is meticulous in preparing report cards.Indicators:
-
-Ensures accuracy in tabulating marks.
-
-Rechecks the marks grid and tallies it with answer sheets before submission.
-
-Domain: Result Analysis
-
-Standard 3: The teacher systematically analyzes examination results.Indicators:
-
-Uses techniques such as answer sheet sampling, data analysis, and comparisons.
-
-Discusses findings with the Instructional Supervisor to devise strategic improvements.
-
-Develops action plans to prevent recurring issues in subsequent examinations.
-
-Conclusion
-
-This guide serves as a framework for teachers at The Excelsior School to maintain high standards in examination management and result analysis. By adhering to these structured guidelines, teachers contribute to a fair, transparent, and academically enriching assessment process.
+### Project Work Protocol 
+
+This document outlines the project work guidelines for students in **Grades 1 to 10** across the three academic terms at **The Excelsior School**. The aim is to ensure project work enhances learning without causing undue pressure, with most work to be completed within school premises under supervision.
+
+*   **Key Objectives** of project work include:
+    *   **Enhance Learning**: Aligning projects with learning outcomes and deepening understanding.
+    *   **Reduce Pressure**: Minimizing stress by keeping project work within the school.
+    *   **Encourage Collaboration**: Fostering collaboration among teachers to avoid overlap and balance workload.
+    *   **Engage with Environmental Awareness**: Ensuring each student participates in an Environment Day project in Term 1.
+    *   **Provide Varied Project Types**: Offering a mix of styles like model-making, reports, investigations, writing assignments.
+
+*   **General Guidelines**:
+    *   **Project Assignment**: Each term will have at least one major project per student, often aligning with key dates like Environment Day. Project types can include model-making, investigations, reports, miniature models, articles, and presentations.
+    *   **Completion Location**: Most project work should be done within school hours under teacher supervision. Teachers should monitor progress and provide support in class. Projects will be assigned as home assignments when necessary.
+    *   **Teacher Collaboration**: Teachers must coordinate within grade levels to prevent project overlap and ensure a balanced workload across subjects through horizontal collaboration. Regular progress checks and feedback should be provided during class time.
+
+*   **Roles & Responsibilities**:
+    *   **Students**: Engage meaningfully with the project and meet objectives under supervision.
+    *   **Subject Teachers**: Design projects aligned with learning outcomes and rubrics, supervise in school, and collaborate with colleagues.
+    *   **Class Teachers**: Coordinate project timelines across subjects and ensure balanced workload within the class.
+    *   **Instructional Supervisor**: Oversee project guideline adherence and provide support for smooth execution.
+    *   **Parents**: Support students by encouraging completion in school and ensuring a balanced workload at home.
+
+*   **Mark Allocation for Project Work**:
+    *   **Grades 1 to 3**: 16 marks.
+    *   **Grades 4 to 8**: 16 marks out of 50 for internal assessment.
+    *   **Grades 9 to 10**: 6 marks out of 25 for internal assessment.
+
+*   **Evaluation Rubric sample**: Includes criteria like **Creativity and Originality**, **Scientific Accuracy**, **Presentation and Clarity**, and **Timeliness**, with corresponding points for different levels of achievement (Excellent, Good, Satisfactory, Needs Improvement).
+
+*   **Important Notes**:
+    *   **Mini Projects**: Short writing assignments, articles, or booklets may also be conducted under classroom supervision.
+    *   **Supervision**: Teachers must ensure adequate time and resources for project completion during school hours.
+    *   **Grading and Feedback**: Projects will be assessed on effort, creativity, understanding, and adherence to guidelines. Timely feedback will be provided.
+    *   **Communication**: Regular communication should be maintained with supervisors and guardians regarding student performance, highlighting areas of excellence and shortcomings.
+
+### Science Core Principles 
+The Department of Science at **The Excelsior School** outlines its ethos and approach through mission and vision statements and guiding principles encapsulated by the acronym **S.C.I.E.N.C.E.**.
+
+*   **Vision**: To create a learning environment where science is not just learned but lived, sparking curiosity about its marvels, practical applications, and integration into everyday life.
+
+*   **Mission**: To equip students with dynamic and innovative teaching approaches, nurturing independence, fostering personal growth, and igniting a deep enthusiasm for science.
+
+*   **Guiding principles (S.C.I.E.N.C.E.)**:
+    *   **Student-Centered Learning**: Prioritize hands-on learning, curiosity, and student-led inquiry, adapting teaching methods to diverse needs and interests. Design engaging, hands-on, and minds-on activities with real-life applications.
+    *   **Curiosity and Critical Thinking**: Encourage a culture where questions are valued. Develop students' abilities to think critically and creatively using scientific methods to inquire, explore, hypothesize, experiment, and reflect. Aim to ignite natural curiosity and equip students for inquiry-based learning.
+    *   **Integrity and Inclusivity**: Maintain high standards of integrity, promoting honesty, respect, and responsibility. Ensure science education is inclusive, providing equal opportunities for all students regardless of background or ability.
+    *   **Engagement through Diverse Methods**: Employ a variety of teaching strategies, including interactive lectures, discussions, digital technology, and field trips. Cater to different learning styles using problem-based learning, project-based learning, and flipped classrooms. Focus on clear, concise, and accessible content while encouraging movement, play, and creativity.
+    *   **Nurturing through Collaboration**: Foster a supportive environment where student collaboration is encouraged for peer learning, teamwork, and communication through group projects and cooperative learning.
+    *   **Connections beyond the Classroom**: Extend learning by connecting scientific concepts to the real world, other subjects, and current global issues. Encourage applying knowledge in practical contexts to enhance problem-solving skills.
+    *   **Evolution and Reflection**: Commit to continuous improvement and lifelong learning for both students and educators through ongoing assessment, reflective practices, and openness to new ideas and technologies to offer the most effective science education.
+
+### Unit Learning Verification Tests 
+
+This document outlines the **Formative Evaluation Assessment Process**, known as **Unit Learning Evidence Test Protocol (ULET)**, implemented at **The Excelsior School** to continuously monitor and support student learning.
+
+*   **Process Overview**: This process involves a more **granular assessment schedule** than traditional end-of-term testing.
+    *   **Frequent Assessments**: Multiple assessments are given at the end of each chapter or unit to identify learning gaps early and ensure continuous engagement.
+    *   **Variety of Test Formats**: Individual departments can use various assessment methods and test item formats suited to learning objectives and subject matter. Traditional unit tests can be conducted with coordination, informing students a week prior, with no more than two tests in a day. This allows for differentiated tasks catering to diverse learning styles.
+    *   **Comprehensive Feedback**: All scores are compiled and analyzed. Students receive detailed, specific, and actionable feedback to guide learning strategies.
+    *   **Accurate Record Keeping**: Assessment results are thoroughly documented and stored for future reference, allowing tracking of progress and informing instruction.
+
+*   **Prerequisites for Unit Tests**:
+    *   **Completion of Chapter related tasks and correction**: Successful completion of classwork, homework, worksheets, projects, labs, and field visits, along with teacher correction, is needed.
+    *   **Demonstration of Key Skills**: Students may need to show proficiency in relevant skills through activities or presentations.
+    *   **Teacher Recommendation**: Teachers can use professional judgment to assess class readiness.
+    *   **Timing**: Test timings should align with National Curriculum guidelines (3 hours for 75 marks, 2 hours for 50 marks), with a maximum of 2.4 minutes per mark.
+
+*   **Benefits**:
+    *   **Early Identification of Learning Gaps**: Timely intervention and support become possible.
+    *   **Improved Student Understanding**: Diverse formats encourage deeper understanding by catering to different styles.
+    *   **Data-Driven Instruction**: Feedback and records provide valuable data for future instruction.
+    *   **Enhanced Student Engagement**: Frequent and differentiated assessments can increase motivation through regular feedback and self-evaluation.
+
+### XLCRDOST\_Internal Evaluation Protocol 
+
+This document outlines the internal assessment protocol for the Department of Science & Technology at **The Excelsior School**, aiming to provide a comprehensive and effective means of evaluating student progress. The criteria apply to the assessment of each chapter in the science courses.
+
+*   **Internal Evaluation Marks Distribution**:
+    *   **Basic Level (Class 4 & 5 and Class 6 – 8)**:
+        *   Attendance and participation: 4 marks.
+        *   Experimental work: 20 marks (material setup, observation, testing, tabulation, conclusion, presentation, documentation).
+        *   Project work: 16 marks (site visit, chart making, model making, material making, inquiry, presentation, documentation).
+        *   Quarterly Examination: 10 marks (question paper based on specification grid, feedback for improvement).
+        *   **Total: 50 marks**.
+    *   **Secondary Level (Class 9 & 10)**:
+        *   Attendance and participation: 3 marks.
+        *   Experimental work: 10 marks (material setup, observation, testing, tabulation, conclusion, presentation, documentation).
+        *   Project work: 6 marks (site visit, chart making, model making, material making, inquiry, presentation, documentation).
+        *   Quarterly Examination: 6 marks (question paper based on specification grid, feedback for improvement).
+        *   **Total: 25 marks**.
+
+*   **Assessment Criteria (for each chapter)**:
+    *   **Project Work**: Assesses the application of theoretical knowledge in practical, creative, and innovative ways through models, presentations, posters, etc.. Uses an evaluation rubric similar to the one in "PWP.docx.pdf" with criteria like Creativity, Scientific Accuracy, Presentation, and Timeliness.
+    *   **Lab Practical**: Evaluates proficiency in practical science skills and the ability to conduct experiments accurately and safely through hands-on experiments. Criteria include Performance & Safety, Presentation, and Documentation in Record File, each with rating scales.
+    *   **Notebooks Maintenance**: Assesses consistency and quality of classwork and homework based on regular entries, organization, neatness, and completeness. Criteria include Organization, Completeness, Neatness, and Timeliness, each with rating scales.
+    *   **Chapter Assessment**: Measures understanding of chapter content through written or computer-based Multiple Choice Questions (MCQs).
+    *   **Classroom Presence**: Encourages and recognizes regular attendance, active participation, and engagement. Criteria include Attendance, Participation, and Engagement, each with rating scales.
+
+*   **Implementation**:
+    *   Assessments will be conducted at the end of each chapter or major unit.
+    *   Subject teachers are responsible for administering and recording scores.
+    *   Regular audits will be done to ensure compliance.
+    *   Feedback will be provided after each component, highlighting strengths and areas for improvement.
+    *   Records will be maintained digitally.
+    *   Marks will be converted as per the CDC framework.
+    *   Teachers are not obligated to give additional marks to students who disregard the internal evaluation system.
 
