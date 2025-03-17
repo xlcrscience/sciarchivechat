@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLCRSCI-ARCHGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>XLCRSCI-ARCHGPT</h1>
+        </header>
+        <main>
+            <div class="api-key-input">
+                <label for="api-key">Gemini API Key:</label>
+                <div class="api-key-wrapper">
+                    <input type="password" id="api-key" placeholder="Enter your API key" aria-label="Gemini API Key">
+                    <button id="submit-api-key">Submit</button>
+                </div>
+                <p id="api-key-message" class="message"></p>  <!-- Display API key status messages here -->
+            </div>
+
+            <div id="chat-window" class="chat-window"></div>
+
+            <form class="input-area">  <!-- Wrap the input and button in a form -->
+                <input type="text" id="user-input" placeholder="Type your message..." aria-label="Your message">
+                <button type="button" id="send-button">Send</button>  <!-- type="button" -->
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    display: flex;  /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    min-height: 100vh;       /* Ensure full viewport height */
+}
+
+.container {
+    width: 80%; /* Wider container */
+    max-width: 1200px; /* Maximum width */
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent content from overflowing rounded corners */
+    display: flex;
+    flex-direction: column; /* Stack header and main vertically */
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 30px;
+    flex-grow: 1; /* Allow main to take up remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+/* API Key Input */
+.api-key-input {
+    margin-bottom: 25px;
+}
+
+.api-key-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.api-key-wrapper {
+    display: flex;
+    gap: 10px; /* Space between input and button */
+}
+
+.api-key-wrapper input[type="password"] {
+    flex-grow: 1;  /* Allow input to take remaining space */
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.api-key-wrapper input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+
+#submit-api-key {
+    background-color: #28a745; /* Green color for submit */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#submit-api-key:hover {
+    background-color: #218838;
+}
+
+
+
+/* Chat Window Styles */
+.chat-window {
+    flex-grow: 1;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    background-color: #f9f9f9;
+}
+
+.message {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    word-wrap: break-word;
+}
+
+.message.user {
+    background-color: #e2f0ff;
+    text-align: right;
+    color: #0056b3;
+}
+
+.message.bot {
+    background-color: #f0f0f0;
+    text-align: left;
+    color: #333;
+}
+
+/* Input Area Styles */
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+.input-area input[type="text"] {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.input-area input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+#send-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+/* Accessibility Improvements */
+input,
+button {
+    outline: none;
+}
