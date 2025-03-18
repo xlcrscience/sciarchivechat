@@ -44,8 +44,8 @@ body {
 }
 
 .logo {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 50px;
+    max-width: 100px;
     object-fit: contain;
     margin-top: 20px;
 }
@@ -57,13 +57,13 @@ body {
 .loading-bar {
     width: 100%;
     height: 4px;
-    background: #f28c38; /* Orange when loading */
+    background: #f28c38;
     border-radius: 2px;
     transition: background 0.3s;
 }
 
 .loading-bar.loaded {
-    background: #38a169; /* Green when loaded */
+    background: #38a169;
 }
 
 .chat-main {
@@ -96,7 +96,7 @@ body {
     flex-wrap: wrap;
 }
 
-#api-key {
+#api-key, #passkey {
     flex: 1;
     padding: 10px;
     border: 1px solid #d1d5db;
@@ -106,7 +106,7 @@ body {
     transition: border-color 0.3s;
 }
 
-#api-key:focus {
+#api-key:focus, #passkey:focus {
     border-color: #404040;
 }
 
@@ -152,6 +152,40 @@ body {
 
 .api-link:hover {
     text-decoration: underline;
+}
+
+.suggestions-section {
+    padding: 15px 20px;
+    background: #f9fafb;
+    border-bottom: 1px solid #e2e8f0;
+    display: none; /* Hidden until context loads */
+}
+
+.suggestions-section h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+#suggestions-list {
+    list-style: none;
+    padding: 0;
+}
+
+#suggestions-list li {
+    padding: 8px 12px;
+    background: #edf2f7;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #2d3748;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#suggestions-list li:hover {
+    background: #dfe6ed;
 }
 
 .chat-window {
