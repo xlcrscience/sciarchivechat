@@ -44,14 +44,14 @@
    }
    
    .logo {
-    max-height: 50px;
-    max-width: 100px;
+    max-height: 500px;
+    max-width: 500px;
     object-fit: contain;
     margin-top: 20px;
    }
    
    .suggestions-section {
-    margin-top: 20px;
+    margin-top: 250px;
     width: 100%;
     display: none; /* Hidden until context loads */
    }
