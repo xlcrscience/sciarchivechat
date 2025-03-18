@@ -96,10 +96,10 @@ function appendMessage(sender, message, isHtml = false) {
 async function typeMessage(element, text) {
     element.classList.add('typing');
     element.innerHTML = ''; // Clear content initially
-    await new Promise(resolve => setTimeout(resolve, 300)); // Brief delay before typing starts
+    await new Promise(resolve => setTimeout(resolve, 100)); // Brief delay before typing starts
     for (let i = 0; i < text.length; i++) {
         element.innerHTML = text.substring(0, i + 1);
-        await new Promise(resolve => setTimeout(resolve, 2)); // Typing speed (2ms per character)
+        await new Promise(resolve => setTimeout(resolve, 1)); // Typing speed (1ms per character)
     }
     element.classList.remove('typing');
 }
