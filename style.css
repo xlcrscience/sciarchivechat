@@ -51,7 +51,7 @@
    }
    
    .suggestions-section {
-    margin-top: 250px;
+    margin-top: 20px;
     width: 100%;
     display: none; /* Hidden until context loads */
    }
