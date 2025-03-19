@@ -186,10 +186,10 @@ function appendMessage(sender, message, isHtml = false) {
 async function typeMessage(element, text) {
     element.classList.add('typing');
     element.innerHTML = '';
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise(resolve => setTimeout(resolve, 90));
     for (let i = 0; i < text.length; i++) {
         element.innerHTML = text.substring(0, i + 1);
-        await new Promise(resolve => setTimeout(resolve, 20));
+        await new Promise(resolve => setTimeout(resolve, 1));
     }
     element.classList.remove('typing');
 }
