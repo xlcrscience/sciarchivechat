@@ -15,10 +15,8 @@ let passkeyValid = false;
 let contextLoading = false;
 let conversationHistory = [];
 
-// Precomputed SHA-256 hash of "XLCRSCI2025"
 const VALID_PASSKEY_HASH = "2a32f4fe7baa4f2b7179ab0e03037f7a7eec963f43778976e49500d6d68711d3";
 
-// Function to hash a string using SHA-256
 async function hashString(str) {
     const encoder = new TextEncoder();
     const data = encoder.encode(str);
