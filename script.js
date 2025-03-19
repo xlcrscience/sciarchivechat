@@ -30,7 +30,7 @@ async function hashString(str) {
 // Function to generate smart questions using the API
 async function generateSmartQuestions(context, apiKey) {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
-    const prompt = `Given the following context: "${context}", generate 2-3 concise, relevant questions that a Science Department Teacher might ask about this context. Do NOT suggest any questions about XLCRSCI-ArchGPT 1.0. Return only the questions as a plain list, one per line, with no extra text or numbering.`;
+    const prompt = `Given the following context: "${context}", generate 2-3 concise, basic relevant questions that a new teacher in the Science Department might ask based on this context. Do NOT suggest any questions about XLCRSCI-ArchGPT 1.0. Return only the questions as a plain list, one per line, with no extra text or numbering.`;
 
     try {
         const response = await fetch(url, {
